@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /vendor/
 node_modules/
 npm-debug.log
@@ -28,3 +29,63 @@ Homestead.json
 .env.production
 .phpactor.json
 auth.json
+=======
+# Laravel
+.env
+.env.production
+.env.backup
+.env.local
+.env.testing
+
+# Composer
+/vendor/
+composer.lock
+
+# Node.js
+/node_modules/
+npm-debug.log*
+yarn-error.log*
+yarn.lock
+package-lock.json
+
+# IDEs
+.idea/
+.vscode/
+.nova/
+.fleet/
+.zed/
+.phpactor.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Laravel specific
+bootstrap/cache/*.php
+storage/*.key
+storage/pail
+storage/framework/cache/data/*
+storage/framework/sessions/*
+storage/framework/views/*
+storage/logs/*.log
+storage/app/public/*
+
+# Public build assets
+/public/build
+/public/hot
+/public/storage
+
+# Testing
+.phpunit.result.cache
+.coverage/
+coverage/
+
+# Deployment
+railway.json
+deploy.sh
+Dockerfile
+docker-compose.yml
+
+# Logs
+*.log
+>>>>>>> e95c66b (Initial commit: Secure Laravel Vegetable Delivery API)
